@@ -1,5 +1,5 @@
 body {
-	font-family: tahome;
+	font-family: tahoma;
 	height: 100vh;
 	min-height: 550px;
 	background-image: url("lake.jpg");
@@ -36,4 +36,24 @@ a {
 	width: 50%;
 	right: calc(50% -50px);
 	transition: .3s ease-in-out;
+}
+
+.login_reg_panel input[type="radio"] {
+	position: relative;
+	display: none;
+}
+
+.login_reg_panel {
+	color: #b8b8b8;
+}
+
+.login_reg_panel #label_login,
+.login_reg_panel #label_register {
+	border: 1px solid #939393;
+	padding: 0 5px;
+	width: 150px;
+	display: block;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
 }
