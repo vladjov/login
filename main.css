@@ -28,3 +28,12 @@ a {
 	background-color: rgba(30,30,30,0.9);
 }
 
+.white_panel {
+	background-color: rgba(255, 255, 255, 1);
+	height: 500px;
+	position: absolute;
+	top: -50px;
+	width: 50%;
+	right: calc(50% -50px);
+	transition: .3s ease-in-out;
+}
